@@ -29,7 +29,7 @@ const Profile = props => {
                 </li>
             </ul>
         </div>
-    )
+    );
 };
 
 export default Profile;
