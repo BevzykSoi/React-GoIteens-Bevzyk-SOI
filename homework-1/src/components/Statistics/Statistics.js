@@ -1,18 +1,30 @@
-const Statistics = props => {
+import styles from "./Statistics.module.css";
+import propTypes from "prop-types";
+
+const Statistics = ({ title, stats }) => {
     return (
-        <section className="statistics">
-            <h2 className="title">{props.title}</h2>
+        <section className={styles.statistics}>
+            <h2 className={styles.title}>{title}</h2>
             
-            <ul className="stat-list">
-                {props.stats.map((state) => (
-                    <li className="item" key={state.id}>
-                        <span className="label">{state.label}</span>
-                        <span className="percentage">{state.percentage}%</span>
+            <ul className={styles.statList}>
+                {stats.map((state) => (
+                    <li className={styles.item} key={state.id} style={{backgroundColor: state.color}}>
+                        <span className={styles.label}>{state.label}</span>
+                        <span className={styles.percentage}>{state.percentage}%</span>
                     </li>
                 ))}
             </ul>
         </section>
     );
 };
+
+Statistics.defaultProps = {
+    label: "Other",
+    percentage: 0,
+};
+
+Statistics.propTypes = {
+    title: propTypes.string.isRequired,
+}
 
 export default Statistics;

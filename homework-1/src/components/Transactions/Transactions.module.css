@@ -1,0 +1,36 @@
+.transactionHistory {
+    width: 500px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 9px 5px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 10px 13px -7px #000000, 7px 5px 9px 5px rgba(0, 0, 0, 0.14);
+    margin-top: 10px;
+    overflow: hidden;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #1fadff;
+    height: 50px;
+    border-radius: 5px;
+}
+
+th {
+    color: #fff;
+    font-size: 20px;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody>tr {
+    height: 35px;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: #a7a1a1;
+}
+
+td {
+    font-size: 16px;
+}
