@@ -12,7 +12,7 @@ import React from 'react';
 function App() {
   return (
     <div className={styles.main}>
-      <Profile avatar={user.avatar} username={user.username} tag={user.tag} location={user.location} followers={user.stats.followers} views={user.stats.views} likes={user.stats.likes}/>
+      <Profile {...user} followers={user.stats.followers} views={user.stats.views} likes={user.stats.likes}/>
 
       <Statistics title="Upload stats" stats={data}/>
       

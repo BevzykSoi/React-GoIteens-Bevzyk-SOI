@@ -26,15 +26,11 @@ const Transactions = props => {
 };
 
 Transactions.defaultProps = {
-    type: "Other",
-    amount: 0,
-    currency: "Other",
+    items: [],
 };
 
 Transactions.propTypes = {
-    type: propTypes.string,
-    amount: propTypes.number,
-    currency: propTypes.string,
+    items: propTypes.array,
 };
 
 export default Transactions;
