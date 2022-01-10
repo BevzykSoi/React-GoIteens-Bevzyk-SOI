@@ -11,7 +11,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className={styles.main}>
+    <React.Fragment>
       <Profile {...user} followers={user.stats.followers} views={user.stats.views} likes={user.stats.likes}/>
 
       <Statistics title="Upload stats" stats={data}/>
@@ -19,7 +19,7 @@ function App() {
       <FriendsList data={friends} />
       
       <Transactions items={transactions}/>
-    </div>
+    </React.Fragment>
   );
 }
 
