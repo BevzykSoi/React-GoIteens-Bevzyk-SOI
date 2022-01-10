@@ -27,14 +27,12 @@
     padding-left: 5px;
 }
 
-#green {
+.green {
+    composes: status;
     background-color: #2d8b10;
 }
 
-#red {
+.red {
+    composes: status;
     background-color: #cf1111;
-}
-
-#grey {
-    background-color: #666866;
 }
