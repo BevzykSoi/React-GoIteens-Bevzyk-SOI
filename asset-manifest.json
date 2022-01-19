@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6da24aa2.css",
-    "main.js": "/static/js/main.b9175880.js",
-    "index.html": "/index.html",
-    "main.6da24aa2.css.map": "/static/css/main.6da24aa2.css.map",
-    "main.b9175880.js.map": "/static/js/main.b9175880.js.map"
+    "main.css": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/css/main.6da24aa2.css",
+    "main.js": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/js/main.b9175880.js",
+    "index.html": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/index.html",
+    "main.6da24aa2.css.map": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/css/main.6da24aa2.css.map",
+    "main.b9175880.js.map": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/js/main.b9175880.js.map"
   },
   "entrypoints": [
     "static/css/main.6da24aa2.css",
