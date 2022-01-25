@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/css/main.6da24aa2.css",
-    "main.js": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/js/main.b9175880.js",
-    "index.html": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/index.html",
-    "main.6da24aa2.css.map": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/css/main.6da24aa2.css.map",
-    "main.b9175880.js.map": "//bevzyksoi.github.io/react-homework-1-bevzyk-soi/static/js/main.b9175880.js.map"
+    "main.css": "/react-homework-1-bevzyk-soi/static/css/main.26beec5a.css",
+    "main.js": "/react-homework-1-bevzyk-soi/static/js/main.abfbfe27.js",
+    "static/media/defaultUser.jpg": "/react-homework-1-bevzyk-soi/static/media/defaultUser.4aa827c3440249505e81.jpg",
+    "index.html": "/react-homework-1-bevzyk-soi/index.html",
+    "main.26beec5a.css.map": "/react-homework-1-bevzyk-soi/static/css/main.26beec5a.css.map",
+    "main.abfbfe27.js.map": "/react-homework-1-bevzyk-soi/static/js/main.abfbfe27.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da24aa2.css",
-    "static/js/main.b9175880.js"
+    "static/css/main.26beec5a.css",
+    "static/js/main.abfbfe27.js"
   ]
 }
