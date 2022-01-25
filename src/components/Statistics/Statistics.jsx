@@ -4,7 +4,7 @@ import propTypes from "prop-types";
 const Statistics = ({ title, stats }) => {
     return (
         <section className={styles.statistics}>
-            <h2 className={styles.title}>{title}</h2>
+            {title && <h2 className={styles.title}>{title}</h2>}
             
             <ul className={styles.statList}>
                 {stats.map((state) => (
@@ -18,13 +18,9 @@ const Statistics = ({ title, stats }) => {
     );
 };
 
-Statistics.defaultProps = {
-    stats: []
-};
-
 Statistics.propTypes = {
-    title: propTypes.string.isRequired,
-    stats: propTypes.array,
+    title: propTypes.string,
+    stats: propTypes.array.isRequired,
 }
 
 export default Statistics;
